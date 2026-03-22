@@ -6,11 +6,11 @@
       "variant": "max"
     },
     "hephaestus": {
-      "model": "github-copilot/gpt-5.4",
+      "model": "github-copilot/gpt-5.3-codex",
       "variant": "medium"
     },
     "oracle": {
-      "model": "github-copilot/gpt-5.4",
+      "model": "github-copilot/gpt-5.4-mini",
       "variant": "high"
     },
     "explore": {
@@ -21,15 +21,15 @@
       "model": "github-copilot/gemini-3-flash-preview"
     },
     "prometheus": {
-      "model": "opencode/minimax-m2.5-free",
-      "variant": "max"
+      "model": "github-copilot/gpt-5.4-mini",
+      "variant": "high"
     },
     "metis": {
       "model": "opencode/minimax-m2.5-free",
       "variant": "max"
     },
     "momus": {
-      "model": "github-copilot/gpt-5.4",
+      "model": "github-copilot/gpt-5.4-mini",
       "variant": "high"
     },
     "atlas": {
