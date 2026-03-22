@@ -14,7 +14,7 @@
       "variant": "high"
     },
     "explore": {
-      "model": "github-copilot/gpt-5-mini",
+      "model": "github-copilot/gpt-5.4-mini",
       "variant": "high"
     },
     "multimodal-looker": {
