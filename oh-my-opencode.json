@@ -1,71 +1,66 @@
 {
-  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/dev/assets/oh-my-opencode.schema.json",
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/refs/heads/dev/assets/oh-my-opencode.schema.json",
   "agents": {
     "sisyphus": {
-      "model": "opencode/minimax-m2.5-free",
-      "variant": "max"
+      "model": "opencode-go/minimax-m2.7"
     },
     "hephaestus": {
-      "model": "github-copilot/gpt-5.3-codex",
-      "variant": "medium"
+      "model": "opencode-go/minimax-m2.7"
     },
     "oracle": {
       "model": "github-copilot/gpt-5.4-mini",
       "variant": "high"
     },
+    "librarian": {
+      "model": "opencode-go/minimax-m2.7"
+    },
     "explore": {
-      "model": "github-copilot/gpt-5.4-mini",
-      "variant": "high"
+      "model": "opencode-go/minimax-m2.7"
     },
     "multimodal-looker": {
-      "model": "github-copilot/gemini-3-flash-preview"
+      "model": "opencode-go/kimi-k2.5"
     },
     "prometheus": {
-      "model": "github-copilot/gpt-5.4-mini",
-      "variant": "high"
+      "model": "opencode-go/glm-5"
     },
     "metis": {
-      "model": "opencode/minimax-m2.5-free",
-      "variant": "max"
+      "model": "opencode-go/glm-5"
     },
     "momus": {
       "model": "github-copilot/gpt-5.4-mini",
       "variant": "high"
     },
     "atlas": {
-      "model": "opencode/minimax-m2.5-free"
+      "model": "opencode-go/kimi-k2.5"
     },
     "sisyphus-junior": {
-      "model": "opencode/minimax-m2.5-free"
-    },
-    "librarian": {
-      "model": "github-copilot/gemini-3-flash-preview"
+      "model": "opencode-go/minimax-m2.5"
     }
   },
   "categories": {
     "visual-engineering": {
-      "model": "github-copilot/gemini-3.1-pro-preview",
-      "variant": "high"
+      "model": "opencode-go/kimi-k2.5"
     },
     "ultrabrain": {
-      "model": "github-copilot/gemini-3.1-pro-preview",
-      "variant": "high"
+      "model": "opencode-go/glm-5"
+    },
+    "deep": {
+      "model": "opencode-go/kimi-k2.5"
     },
     "artistry": {
-      "model": "github-copilot/gemini-3.1-pro-preview",
-      "variant": "high"
+      "model": "opencode-go/kimi-k2.5"
     },
     "quick": {
-      "model": "opencode/minimax-m2.5-free"
+      "model": "opencode-go/minimax-m2.5"
     },
     "unspecified-low": {
-      "model": "opencode/minimax-m2.5-free"
+      "model": "opencode-go/minimax-m2.7"
     },
     "unspecified-high": {
-      "model": "opencode/minimax-m2.5-free"
+      "model": "opencode-go/kimi-k2.5"
     },
     "writing": {
-      "model": "github-copilot/gemini-3-flash-preview"
+      "model": "opencode-go/kimi-k2.5"
     }
   }
 }
