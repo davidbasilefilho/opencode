@@ -21,10 +21,10 @@
       "model": "opencode-go/kimi-k2.5"
     },
     "prometheus": {
-      "model": "opencode-go/glm-5"
+      "model": "opencode-go/glm-5.1"
     },
     "metis": {
-      "model": "opencode-go/glm-5"
+      "model": "opencode-go/glm-5.1"
     },
     "momus": {
       "model": "github-copilot/gpt-5.4-mini",
@@ -42,7 +42,7 @@
       "model": "opencode-go/kimi-k2.5"
     },
     "ultrabrain": {
-      "model": "opencode-go/glm-5"
+      "model": "opencode-go/glm-5.1"
     },
     "deep": {
       "model": "opencode-go/kimi-k2.5"
